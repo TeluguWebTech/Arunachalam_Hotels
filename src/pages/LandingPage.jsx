@@ -104,8 +104,8 @@ const LandingPage = () => {
                 
                 <div className="w-full md:w-2/3 p-6 relative">
                   <div className="price absolute top-6 right-6">
-                    <div className="flex items-center justify-center bg-green-100 rounded-full w-20 h-20 border-2 border-green-200">
-                      <span className="text-green-700 font-medium text-center">{hotel.price}</span>
+                    <div className="circle flex items-center justify-center bg-orange-900 rounded-full w-30 h-25 border-2 border-orange-900">
+                      <span className="text-white font-medium text-center">{hotel.price}</span>
                     </div>
                   </div>
                   
